@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta 0http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopable</title>
+    <link rel="shortcut icon" href="coincent-images/logo1.png" />
+    <link rel="stylesheet" href="coincentstyle/loginstyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="coincentstyle/style1.css">
+</head>
+
+<body>
+    <body>
+        <section id="header">
+          <a href="#"
+            ><img
+              src="coincent-images/logo1-removebg-preview.png"
+              alt=""
+              class="logo1"
+          /></a>
+          <div>
+            <ul id="navbar" type="none">
+              <li><a class="active" href="login.html">Login</a></li>
+              <li><a  href="pageindex.html">Home</a></li>
+              <li><a href="shop.html">Shop </a></li>
+              <li>
+                <a href="about.html">About Shopable</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact Us </a>
+              </li>
+              <li>
+                <a href="wishlist.html"> <i class="fa-regular fa-heart"></i></a>
+              </li>
+              <li>
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+    <div class="main-head">
+        <div class="main-head-title">
+            <h2>LOGIN</h2>
+        </div>
+        <div class="main-con">
+            <form name="login-googlesheet" action="https://script.google.com/macros/s/AKfycbwVOSCyJHBAFld9M3YeQd3j2apyHrChRhFzHca-_afZ9Y_6oepV7cO-PCOhk-CSxOGh/exec" method="post">
+                <label class="input">Username</label><br>
+                <input type="text" class="in1" name="name" required></input><br>
+                <span id="name-err" style=" color : red; font-size: 10px;"></span>
+                <label class="input">MailID</label><br>
+                <input type="email" class="in1" name="mail" required></input><br>
+                <span id="pass-err" style=" color : red; font-size: 10px;"></span>
+                <div class="btn-con-1">
+                    <button class="btn-con-style" target="_blank" type="submit" onclick="location.href='pageindex.html' ">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+  </body>
+</html>
