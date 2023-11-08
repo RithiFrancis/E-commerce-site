@@ -1,0 +1,69 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-image: url("../coincent-images/logindesign.jpg");
+    background-position:top 25% left 0;
+    background-size: cover;
+}
+
+/* HEAD PART */
+.head-st{
+    position: absolute;
+    top: 5%;
+    left: 25%;
+}
+
+/* BACKGROUND */
+.main-head{
+    width:300px;
+    height:400px;
+    border-radius: 20px;
+    background-image: url("../coincent-images/logindesign.jpg");
+    position: absolute;
+    top: 30%;
+    left: 42%;
+
+}
+
+/* LOGIN FORM */
+.main-head-title{
+    font-size: 35px;
+    text-align: center;
+    color: #154360 ;
+}
+.in1{
+    border-radius: 6px;
+    width:260px;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+.in2{
+    border-radius: 6px;
+    width:270px;
+    height: 19px;
+    margin:15px;
+    border: 2px solid black;
+}
+.input{
+    font-size:25px;
+    text-align: center;
+    margin-left:15px;
+}
+.btn-con-1{
+    position: absolute;
+    top:330px;
+    left: 92px;
+    font-size: 30px;
+}
+.btn-con-style{
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color:  #FADBD8 ;
+    padding:15px 40px;
+    color:  #154360;
+    font-size: large;
+}
+
